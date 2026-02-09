@@ -2,7 +2,6 @@
 
 A stub folder containing many example Claude Agent SDK projects.
 
-> **Note:** Currently, this repo only shows setting up workflows using Claude Agent SDK on Databricks.
 
 ## Projects
 
@@ -25,3 +24,12 @@ A comprehensive tutorial for the Claude Agent SDK with Databricks integration.
 2. Install dependencies: `uv sync`
 3. Run a tutorial script: `uv run python scripts/sdk_demo.py basic_query`
 4. Or start the FastAPI app: `uv run uvicorn app:app --reload`
+
+### `workflows-with-claude-agent-sdk/`
+
+End-to-end workflows built with the Claude Agent SDK on Databricks.
+
+- **`scripts/`** - Utility scripts for data generation, chart creation, report generation, and Databricks job management
+- **`jobs/`** - Databricks job definitions for the BJs executive reporting pipeline
+- **`data/`** - Sample datasets (customer golden view, store sales monthly)
+- **`reports/`** - Generated report charts
